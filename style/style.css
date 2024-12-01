@@ -1,6 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  --bg-black: #0f0f0f;
+  --bg-white: #fff;
+  --bg-grey: #222222;
+  --border-grey: #9c9c9c;
+  --border-white: #fff;
+  --text-grey: #9c9c9c;
+  --text-white: #fff;
+  --text-black: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed";
+}
 body {
-    background: #000;
+  background: var(--bg-black);
+}
+a {
+  text-decoration: none;
+  color: var(--text-white);
+}
+.menu_bar-logo {
+  display: flex;
+  align-items: center;
+}
+input {
+  outline: none;
+  background: transparent;
+  border: none;
+}
+input,
+input::placeholder {
+  color: var(--text-white);
+}
+.search_part {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid var(--border-grey);
 }
 .logo img {
-    width: 100px;
+  width: 100px;
 }
