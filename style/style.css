@@ -26,6 +26,13 @@ a {
   display: flex;
   align-items: center;
 }
+.menu_bar-logo a {
+  display: flex;
+  align-items: center;
+}
+.menu_bar-logo a img {
+  width: 25px;
+}
 input {
   outline: none;
   background: transparent;
