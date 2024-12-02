@@ -118,7 +118,7 @@ input {
 .guide-content {
   max-width: 230px;
   overflow-y: scroll;
-  margin: 0 30px;
+  margin: 0 10px;
 }
 .active {
   background: var(--bg-active);
