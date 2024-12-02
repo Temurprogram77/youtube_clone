@@ -55,17 +55,15 @@ input {
   border: none;
   font-size: 18px;
   color: var(--text-white);
-  max-width: 100%;
+  width: 500px;
   padding: 0 20px;
 }
 .search_section {
   display: flex;
   align-items: center;
-  max-width: 100%;
   gap: 20px;
 }
 .search_part {
-  max-width: 100%;
   display: flex;
   align-items: center;
   border-radius: 30px;
