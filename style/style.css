@@ -3,12 +3,15 @@
   --bg-black: #0f0f0f;
   --bg-white: #fff;
   --bg-grey: #222222;
+  --bg-active: #272727;
   --border-grey: #9c9c9c;
   --border-grey_2: #303030;
+  --border-bottom: #3F3F3F;
   --border-white: #fff;
   --text-grey: #9c9c9c;
   --text-white: #fff;
   --text-black: #000;
+  --hover-bg: #272727;
 }
 * {
   margin: 0;
@@ -19,7 +22,8 @@
 body {
   background: var(--bg-black);
 }
-a, i {
+a,
+i {
   cursor: pointer;
   text-decoration: none;
   color: var(--text-white);
@@ -110,4 +114,32 @@ input {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.guide-content {
+  max-width: 230px;
+  overflow-y: scroll;
+  margin: 0 30px;
+}
+.active {
+  background: var(--bg-active);
+}
+.guide-content::-webkit-scrollbar {
+  /* width: ; */
+  display: none;
+}
+.guide {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-bottom);
+}
+.guide div {
+  color: #fff;
+  cursor: pointer;
+  border-radius: 15px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.guide div:hover {
+  background: var(--hover-bg);
 }
