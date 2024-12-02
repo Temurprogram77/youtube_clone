@@ -117,7 +117,9 @@ input {
 }
 .guide-content {
   max-width: 230px;
+  height: 500px;
   overflow-y: scroll;
+  position: sticky;
   margin: 0 10px;
 }
 .active {
@@ -125,7 +127,7 @@ input {
 }
 .guide-content::-webkit-scrollbar {
   /* width: ; */
-  display: none;
+  /* display: none; */
 }
 .guide {
   padding: 10px 0;
