@@ -117,17 +117,13 @@ input {
 }
 .guide-content {
   max-width: 230px;
-  /* height: 500px; */
+  max-height: 715px;
   overflow-y: scroll;
   position: sticky;
   margin: 0 10px;
 }
 .active {
   background: var(--bg-active);
-}
-.guide-content::-webkit-scrollbar {
-  /* width: ; */
-  /* display: none; */
 }
 .guide {
   padding: 10px 0;
