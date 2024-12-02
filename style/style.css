@@ -19,6 +19,7 @@ body {
   background: var(--bg-black);
 }
 a, i {
+  cursor: pointer;
   text-decoration: none;
   color: var(--text-white);
 }
