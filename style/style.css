@@ -18,20 +18,32 @@
 body {
   background: var(--bg-black);
 }
-a {
+a, i {
   text-decoration: none;
   color: var(--text-white);
+}
+.navbar {
+  margin: 10px 30px;
+  display: flex;
+  align-items: center;
 }
 .menu_bar-logo {
   display: flex;
   align-items: center;
+  gap: 20px;
 }
 .menu_bar-logo a {
   display: flex;
   align-items: center;
+  gap: 3px;
+  font-size: 23px;
+  font-weight: 500;
 }
 .menu_bar-logo a img {
-  width: 25px;
+  width: 30px;
+}
+.menu_bar {
+  cursor: pointer;
 }
 input {
   outline: none;
