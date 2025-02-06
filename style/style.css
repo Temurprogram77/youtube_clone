@@ -21,12 +21,20 @@
 }
 body {
   background: var(--bg-black);
+  overflow: hidden;
 }
 a,
 i {
   cursor: pointer;
   text-decoration: none;
   color: var(--text-white);
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #5a5a5a;
+  border-radius: 10px;
 }
 .navbar {
   margin: 10px 30px;
@@ -117,7 +125,8 @@ input {
 }
 .guide-content {
   max-width: 230px;
-  max-height: 715px;
+  height: 93vh;
+  /* max-height: 715px; */
   overflow-y: scroll;
   position: sticky;
   margin: 0 10px;
