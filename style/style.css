@@ -150,9 +150,3 @@ input {
 .guide div:hover {
   background: var(--hover-bg);
 }
-@media screen and (max-width: 768px) {
-  
-}
-@media only screen and (max-width: 768px) {
-  
-}
