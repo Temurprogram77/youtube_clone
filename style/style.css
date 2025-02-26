@@ -151,6 +151,15 @@ input {
   background: var(--hover-bg);
 }
 .main {
+  width: 100%;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+}
+.main-part {
+  /* width: 100%; */
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+.youtube-part-mein {
 }
