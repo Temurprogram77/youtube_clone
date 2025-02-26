@@ -31,6 +31,7 @@ i {
 }
 ::-webkit-scrollbar {
   width: 10px;
+  /* display: none; */
 }
 ::-webkit-scrollbar-thumb {
   background: #5a5a5a;
@@ -127,6 +128,7 @@ input {
   max-width: 230px;
   height: 93vh;
   /* max-height: 715px; */
+  padding: 0 10px;
   overflow-y: scroll;
   position: sticky;
   margin: 0 10px;
