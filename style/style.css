@@ -150,3 +150,7 @@ input {
 .guide div:hover {
   background: var(--hover-bg);
 }
+.main {
+  display: flex;
+  justify-content: space-between;
+}
