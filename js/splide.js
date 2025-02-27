@@ -5,6 +5,6 @@ var splide1 = new Splide(".splide", {
   pagination: false,
 //   autoplay: true,
   focus: "start",
-  perpage: 4,
+  perPage: 7,
 });
 splide1.mount();

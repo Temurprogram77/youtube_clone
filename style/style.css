@@ -159,11 +159,13 @@ input {
 }
 .main-part {
   /* width: 100%; */
+  max-width: 4000px;
   color: white;
   text-align: center;
   margin: 0 auto;
 }
 .youtube-part-mein {
+  width: 100%;
 }
 .pages {
   display: flex;
@@ -175,6 +177,7 @@ input {
   color: #272727;
 }
 .splide__slide div {
+  width: 100px;
   background: #272727;
   border-radius: 7px;
   font-size: 15px;
