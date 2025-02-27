@@ -166,9 +166,12 @@ input {
 .youtube-part-mein {
 }
 .activ {
-  background: #f1f1f1;
+  background: #f1f1f1!important;
+  color: #272727;
 }
 .pages div {
   background: #272727;
+  border-radius: 10px;
   padding: 5px 10px;
+  font-weight: 600;
 }
