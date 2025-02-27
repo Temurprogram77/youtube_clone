@@ -1,9 +1,10 @@
 var splide1 = new Splide(".splide", {
   type: "loop",
   snap: true,
-  arrows: false,
+  arrows: true,
+  pagination: false,
 //   autoplay: true,
   focus: "start",
-  perpage: 10,
+  perpage: 4,
 });
 splide1.mount();
